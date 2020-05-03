@@ -1,0 +1,242 @@
+{
+  "id": "19804f42-a4ea-415d-ba07-f6daae3fbe39",
+  "version": "2.0",
+  "name": "prueba",
+  "url": "https://en.wikipedia.org",
+  "tests": [{
+    "id": "48450a37-a3c4-4807-b968-51e057fae1b7",
+    "name": "test1",
+    "commands": [{
+      "id": "93118627-fb08-466d-8d57-e151d4c278eb",
+      "comment": "",
+      "command": "open",
+      "target": "/wiki/Main_Page",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc3f4726-b7d3-42dc-b10d-d34b3520cbb2",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleSearch']/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e95a078b-185c-42be-9301-7a26e04334e0",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleSearch']/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "moonlight"
+    }, {
+      "id": "35429975-772a-44dd-8c42-4c1b7ef896ec",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleSearch']/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "b6a3d075-c35d-4e93-b4e5-f9c6af4874ac",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleSearch']/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "6cf57085-9540-4b79-ba0d-17a78cc6a9ba",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Random article",
+      "targets": [
+        ["linkText=Random article", "linkText"],
+        ["css=#n-randompage > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Random article')]", "xpath:link"],
+        ["xpath=//li[@id='n-randompage']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/Special:Random')]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Random article')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f32b4a51-6852-4947-833f-87950d8b2277",
+    "name": "test2",
+    "commands": [{
+      "id": "9955430c-9519-4c35-8577-e74443584f2d",
+      "comment": "",
+      "command": "open",
+      "target": "/wiki/Main_Page",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8126fba4-db98-4494-9d88-0a8e6221e3d7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x714",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c6b795ba-d0ff-40d3-b485-1d3c92b084c2",
+      "comment": "",
+      "command": "click",
+      "target": "id=content",
+      "targets": [
+        ["id=content", "id"],
+        ["css=#content", "css:finder"],
+        ["xpath=//div[@id='content']", "xpath:attributes"],
+        ["xpath=//div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58e07368-dd48-46be-8151-2ff0bc73817d",
+      "comment": "",
+      "command": "click",
+      "target": "id=content",
+      "targets": [
+        ["id=content", "id"],
+        ["css=#content", "css:finder"],
+        ["xpath=//div[@id='content']", "xpath:attributes"],
+        ["xpath=//div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b9f7a41-f656-4cf4-8c6b-a9abd864f417",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=content",
+      "targets": [
+        ["id=content", "id"],
+        ["css=#content", "css:finder"],
+        ["xpath=//div[@id='content']", "xpath:attributes"],
+        ["xpath=//div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5aa2eeae-e17e-43f4-8c52-db7b30af8196",
+      "comment": "",
+      "command": "click",
+      "target": "id=content",
+      "targets": [
+        ["id=content", "id"],
+        ["css=#content", "css:finder"],
+        ["xpath=//div[@id='content']", "xpath:attributes"],
+        ["xpath=//div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bd443e1-24b1-4bde-a268-16ad6dcf8b02",
+      "comment": "",
+      "command": "click",
+      "target": "id=content",
+      "targets": [
+        ["id=content", "id"],
+        ["css=#content", "css:finder"],
+        ["xpath=//div[@id='content']", "xpath:attributes"],
+        ["xpath=//div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e5b4e36-809b-43c5-9813-3f82ef4c0d7e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mw-wiki-logo",
+      "targets": [
+        ["css=.mw-wiki-logo", "css:finder"],
+        ["xpath=//div[@id='p-logo']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/wiki/Main_Page')])[3]", "xpath:href"],
+        ["xpath=//div[5]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8f53e8c-7d00-4631-ab47-4ca37cc171b2",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleSearch']/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1f04e64-c940-46ae-92ff-f3ff4237cd03",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleSearch']/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "united states"
+    }, {
+      "id": "7708c3d4-559e-4d0e-9b62-a331d627665e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.suggestions-result-current",
+      "targets": [
+        ["css=.suggestions-result-current", "css:finder"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14e4d9a9-3bd6-418a-a4ff-72a623447255",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=The New York Times",
+      "targets": [
+        ["linkText=The New York Times", "linkText"],
+        ["css=p > i:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'The New York Times')]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div/p[190]/i[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/The_New_York_Times')]", "xpath:href"],
+        ["xpath=//p[190]/i[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'The New York Times')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "641af3ca-acd0-4b71-902a-8cb02747b24f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["48450a37-a3c4-4807-b968-51e057fae1b7", "f32b4a51-6852-4947-833f-87950d8b2277"]
+  }],
+  "urls": ["https://en.wikipedia.org/"],
+  "plugins": []
+}
